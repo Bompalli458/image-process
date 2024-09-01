@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "31580015-d48f-4fd4-a467-b7ecb3ca5155",
+		"name": "Image Processing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33981560",
+		"_collection_link": "https://dark-robot-975918.postman.co/workspace/Digit-Tap-API's~8a370b0e-4aea-41ac-aed9-857f0f111803/collection/33981560-31580015-d48f-4fd4-a467-b7ecb3ca5155?action=share&source=collection_link&creator=33981560"
+	},
+	"item": [
+		{
+			"name": "upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Efundzz-005/Downloads/products.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/upload",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/status/49298648-b84c-421b-b00d-632126ad11ca",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"status",
+						"49298648-b84c-421b-b00d-632126ad11ca"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

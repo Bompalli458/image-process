@@ -103,3 +103,20 @@ create database tables with below script
 7. Reference
    Upload File: Use the file products.csv for testing.
    Postman Collection: Use the collection from image_processing.postman_collection.json.
+
+Important environment Variables
+
+BUCKET_NAME = 'compressed-images-url-bucket'
+ACCESS_KEY_ID = 'AKIA3E4TZGVC7ETB2EBR'
+SECRET_ACCESS_KEY = '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'
+DATABASE_URI = 'postgresql+psycopg2://postgres:postgres@localhost/image_processing'
+REDIS_URL = 'redis://localhost:6379/0'
+
+DB_HOST = 'localhost'
+DB_PORT = '5432'
+DB_NAME = 'image_processing'
+DB_USER = 'postgres'
+DB_PASSWORD = 'postgres'
+
+The above ACCESS_KEY_ID,BUCKET_NAME,SECRET_ACCESS_KEY are given to public access. 
+

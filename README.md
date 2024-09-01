@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Project Documentation
 1. Project Overview
    1.1. Description

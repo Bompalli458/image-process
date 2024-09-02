@@ -4,7 +4,7 @@ import os
 # Retrieve AWS credentials from environment variables or use a default profile
 ACCESS_KEY_ID = os.getenv('ACCESS_KEY_ID')
 SECRET_ACCESS_KEY = os.getenv('SECRET_ACCESS_KEY')
-AWS_REGION = os.getenv('AWS_REGION', 'us-east-1')  # Default region if not set
+AWS_REGION = os.getenv('AWS_REGION', 'ap-south-1')  # Default region if not set
 
 def create_s3_client():
     try:

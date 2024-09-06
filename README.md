@@ -106,9 +106,9 @@ create database tables with below script
 
 Important environment Variables
 
-BUCKET_NAME = 'compressed-images-url-bucket'
-ACCESS_KEY_ID = 'AKIA3E4TZGVC7ETB2EBR'
-SECRET_ACCESS_KEY = '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'
+BUCKET_NAME = 'MAIL TO bompallinarasimhulu555@gmail.com for credentials'
+ACCESS_KEY_ID = 'MAIL TO bompallinarasimhulu555@gmail.com for credentials'
+SECRET_ACCESS_KEY = 'MAIL TO bompallinarasimhulu555@gmail.com for credentials'
 DATABASE_URI = 'postgresql+psycopg2://postgres:postgres@localhost/image_processing'
 REDIS_URL = 'redis://localhost:6379/0'
 
@@ -118,5 +118,7 @@ DB_NAME = 'image_processing'
 DB_USER = 'postgres'
 DB_PASSWORD = 'postgres'
 
-The above ACCESS_KEY_ID,BUCKET_NAME,SECRET_ACCESS_KEY are given to public access. 
+The above ACCESS_KEY_ID,BUCKET_NAME,SECRET_ACCESS_KEY are not given to public access. Let me know if you wanted to use it.
+you can contact me  :
+email: bompallinarasimhulu555@gmail.com
 
